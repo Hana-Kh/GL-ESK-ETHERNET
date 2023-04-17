@@ -175,8 +175,8 @@ extern void initialise_monitor_handles();
 #define MEMS_INT2_Pin GPIO_PIN_1
 #define MEMS_INT2_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
-#define USE_TCP_CLIENT_PRINTF 0
-#define USE_TCP_SERVER_PRINTF 0
+#define USE_UDP_CLIENT_PRINTF 0
+#define USE_UDP_SERVER_PRINTF 1
 #define USE_HTTP_DEBUG_PRINTF 0
 /* USER CODE END Private defines */
 
